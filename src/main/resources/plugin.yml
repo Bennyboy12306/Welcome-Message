@@ -1,0 +1,28 @@
+name: welcomeMessage
+version: '1.0'
+main: com.bennyboy12306.welcomeMessage.WelcomeMessage
+api-version: '1.21'
+authors:
+  - Bennyboy12306
+description: A simple welcome message plugin
+
+commands:
+  welcome-message-get:
+    description: Gets the current welcome message
+    usage: /welcome-message-get
+    permission: welcome-message.base
+
+  welcome-message-set:
+    description: Sets the current welcome message, use %player% to get the players name
+    usage: /welcome-message-set <value>
+    permission: welcome-message.base
+
+  welcome-message-reload:
+    description: Reloads the configuration for the welcome message
+    usage: /welcome-message-reload
+    permission: welcome-message.base
+
+permissions:
+  welcome-message.base:
+    description: Allows players to reload/get/set the welcome message plugins configuration.
+    default: op

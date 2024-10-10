@@ -1,0 +1,4 @@
+# The welcome-message content
+# Supports formatting codes such as §2
+# %player% will be changed into the joining player's name
+welcome-message: "Welcome to the server %player%"
