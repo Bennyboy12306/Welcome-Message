@@ -9,7 +9,7 @@ import org.bstats.bukkit.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
- * This class is the main entry point for the plugin
+ * This class is the main entry point for the plugin.
  * @author Bennyboy12306
  */
 
@@ -17,7 +17,7 @@ public final class WelcomeMessage extends JavaPlugin
 {
 
     /**
-     * This method handles enabling the plugin
+     * This method handles enabling the plugin.
      */
     @Override
     public void onEnable()
@@ -45,7 +45,7 @@ public final class WelcomeMessage extends JavaPlugin
     }
 
     /**
-     * This method handles disabling the plugin
+     * This method handles disabling the plugin.
      */
     @Override
     public void onDisable()

@@ -7,7 +7,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
 /**
- * This class handles the player join event and sends a message when a player joins
+ * This class handles the player join event and sends a message when a player joins.
  * @author Bennyboy12306
  */
 
@@ -16,8 +16,8 @@ public class PlayerJoinListener implements Listener
     private final WelcomeMessage plugin;
 
     /**
-     * Constructor
-     * @param plugin a reference to the main plugin class
+     * Constructor.
+     * @param plugin a reference to the main plugin class.
      */
     public PlayerJoinListener(WelcomeMessage plugin)
     {
@@ -25,8 +25,8 @@ public class PlayerJoinListener implements Listener
     }
 
     /**
-     * This method gets the player that triggered the event and sends the welcome message to them
-     * @param event the join event that triggered this method to be called
+     * This method gets the player that triggered the event and sends the welcome message to them.
+     * @param event the join event that triggered this method to be called.
      */
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event)

@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.bennyboy12306</groupId>
-    <artifactId>welcomeMessage</artifactId>
+    <artifactId>WelcomeMessage</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>welcomeMessage</name>
+    <name>WelcomeMessage</name>
 
     <properties>
         <java.version>21</java.version>
