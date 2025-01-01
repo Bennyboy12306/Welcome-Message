@@ -5,6 +5,8 @@ Customise a message, with colour codes or the players name, that will be display
 ## Usage:
 - Simply drag and drop the jar into your plugins folder.
 - Modify config.yml (Paper) or config/welcome-message/config.json to customise your message.
+- Use %player% as a placeholder for the players name.
+- Use &<minecraft-format-code> to specify a color. 
 - If you are using the paper version run /welcome-message-reload or restart your server to apply changes, If you are using the fabric version you must restart the server to apply the changes.
 
 ## Commands (Only on Paper Version):
