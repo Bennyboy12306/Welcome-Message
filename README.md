@@ -3,7 +3,7 @@ This is a simple welcome message plugin/mod for paper or fabric servers.
 Customise a message, with colour codes or the players name, that will be displayed to your players every time they join
 
 ## Usage:
-- Simply drag and drop the jar into your plugins folder.
+- Simply drag and drop the jar into your servers plugins/mods folder depending on which version you are using. If you are using the fabric version you also need to install fabric api.
 - Modify config.yml (Paper) or config/welcome-message/config.json to customise your message.
 - Use %player% as a placeholder for the players name.
 - Use &<minecraft-format-code> to specify a color. 
