@@ -36,6 +36,7 @@ public class PlayerJoinListener implements Listener
         // Load welcome message from config file
         FileConfiguration config = plugin.getConfig();
         String message = config.getString("welcome-message");
+        message = message.replace("&", "§");
 
         // Handle Player Placeholder
         if (message != null)
